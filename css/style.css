@@ -265,6 +265,7 @@ button {
   border-radius: 20px;
   border: 1px solid rgba(225, 225, 225, 0.2);
   box-shadow: 0 2px rgba(0, 0, 0, 0.37);
+  font-size: .6rem;
 }
 
 .date-picker {
