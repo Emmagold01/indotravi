@@ -15,6 +15,7 @@
     #hero h1 {
         font-size: 2.5rem;
         font-weight: 300;
+        margin-top: 10rem;
       }
 
       #click .click-container {
@@ -24,9 +25,49 @@
       .click-detaiis {
         font-size: 6px;
       }
+
+      #events p {
+       display: grid;
+       place-items: center;
+    }
+
+      #events .events-img-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      #events .events-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      #events .events-wrap .events-text {
+        width: 90%;
+    }
+
+    #destination p {
+      display: grid;
+      place-items: center;
+  }
+
+    #destination .destination-wrap {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    #destination .destination-wrap .destination-text {
+      width: 90%;
+  }
       
       #destination .destination-img-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
       }
 
       #testimonies .testimony-container {
@@ -177,7 +218,6 @@
   }
 
   .click-detaiis {
-    font-size: 6px;
     padding: 0.5rem 1.2rem;
   }
 

@@ -36,3 +36,21 @@ toggleBtn.onclick = function name() {
   ? 'fa-solid fa-xmark'
   : 'fa-solid fa-bars'
 }
+
+
+// top button
+window.addEventListener("scroll", function() {
+  const toTopBtn = document.getElementById("to-top");
+  if (window.pageYOffset > 300) {
+    toTopBtn.style.display = "block";
+  } else {
+    toTopBtn.style.display = "none";
+  }
+});
+
+document.getElementById("to-top").addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
